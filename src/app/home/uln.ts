@@ -7,12 +7,18 @@ export class ULN {
   }
 
   private static isValid(value: Array<number>): boolean {
-    const sum: number = value.reduce((acc: number, curr: number, index: number) => (index === 9) ? acc : acc + index * curr, 0);
+    const sum: number = value.reduce((acc: number, curr: number, index: number) => {
+      if ((index === 9)) { return acc; }
+
+      return acc + (value.length - index) * curr;
+    }, 0);
+
     const rest = sum % 11;
+
     if (rest === 0) {
       return false;
     } else {
-      return rest - 10 === value[9] ? true : false;
+      return 10 - rest === value[9] ? true : false;
     }
   }
 

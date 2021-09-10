@@ -1,5 +1,7 @@
 {
   "name": "uln-generator",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

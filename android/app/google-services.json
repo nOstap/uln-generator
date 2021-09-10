@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "485207566992",
+    "project_id": "uln-generator",
+    "storage_bucket": "uln-generator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485207566992:android:e708a1f0179b9c31c50615",
+        "android_client_info": {
+          "package_name": "com.uln.generator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485207566992-5q362l2ndm241ihabnppvtjooceg2uea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRHdXc_TG8O3St5W5QkdjuHJFYjQq3KOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485207566992-5q362l2ndm241ihabnppvtjooceg2uea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
